@@ -143,8 +143,8 @@ then
 else
     mkdir ~/git && cd ~/git
 fi
-git clone https://gist.github.com/e22d9840f9ea2fee4716.git
-sh e22d9840f9ea2fee4716/osx-for-hackers.sh
+git clone https://gist.github.com/98e14262d8508e0f0a84.git
+sh 98e14262d8508e0f0a84/osx-for-hackers.sh
 
 # Revert disable spotlight in osx-for-hackers.sh
 sudo chmod 755 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search

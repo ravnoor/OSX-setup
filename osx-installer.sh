@@ -22,13 +22,15 @@ printf "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.bash_profil
 # Install others binaries
 binaries=(
       graphicsmagick
+      imagemagick
       rename
       ffmpeg
-      python3
-      sshfs
+      python
+      #sshfs
       git
-      detox
-      duplicity
+      #curl
+      #detox
+      #duplicity
       nmap
       openssl
       p7zip
@@ -68,11 +70,10 @@ apps=(
       firefox
       flash
       flux
-      git
       google-chrome
       handbrake
       #imagealpha
-	    #imageoptim
+      #imageoptim
       iterm2
       java
       lastpass
@@ -86,8 +87,12 @@ apps=(
       #qlmarkdown
       pandoc
       papers
+      qlcolorcode
+      qlmarkdown
       quicklook-json
+      #seil [keyboard hacks]
       skype
+      slack
       subler
       sublime-text
       the-unarchiver
@@ -97,13 +102,30 @@ apps=(
       utorrent
       vlc
       virtualbox
-      xquartz
+      #xquartz
 )
 
 printf "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
+brew cask alfred link
+
 brew cask cleanup
+
+
+# Install Fonts
+brew tap caskroom/fonts
+
+# Fonts
+fonts=(
+  font-m-plus
+  font-clear-sans
+  font-roboto
+)
+
+echo "installing fonts..."
+brew cask install ${fonts[@]}
+
 
 # Install Mackup
 brew install mackup

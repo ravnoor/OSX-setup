@@ -48,32 +48,56 @@ brew install caskroom/cask/brew-cask
 
 # Install Applications
 apps=(
-      adium
+      #adium
+      alfred
+      appcleaner
+      atom
+      bartender
+      basictex
+      #beamer
+      bettertouchtool
       caffeine
-      chromium
-      citrix-receiver
-      crashplan
+      colorpicker
+      cyberduck
+      #chromium
+      #citrix-receiver
+      #crashplan
       dropbox
-      evernote
+      #evernote
+      ffmpegx
       firefox
       flash
       flux
+      git
+      google-chrome
+      handbrake
+      #imagealpha
+	    #imageoptim
       iterm2
       java
-      keepassx
-      libreoffice
+      lastpass
+      latexit
+      #launchbar
+      manuscripts
+      microsoft-office
       mou
-      nvalt
-      paragon-ntfs
-      qlmarkdown
-      qlstephen
+      #nvalt
+      #paragon-ntfs
+      #qlmarkdown
+      pandoc
+      papers
       quicklook-json
       skype
-      spotify
+      subler
       sublime-text
+      the-unarchiver
+      tex-live-utility
+      texmaker
+      tuxera-ntfs
+      utorrent
       vlc
-      vagrant
       virtualbox
+      xquartz
 )
 
 printf "installing apps..."

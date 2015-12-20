@@ -32,7 +32,7 @@ binaries=(
       #detox
       #duplicity
       nmap
-      ghostscript
+      #ghostscript
       openssl
       p7zip
       unrar
@@ -99,8 +99,9 @@ apps=(
       the-unarchiver
       tex-live-utility
       texmaker
+      transmission
       tuxera-ntfs
-      utorrent
+      #utorrent
       vlc
       virtualbox
       #xquartz

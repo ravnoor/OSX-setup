@@ -32,6 +32,7 @@ binaries=(
       #detox
       #duplicity
       nmap
+      ghostscript
       openssl
       p7zip
       unrar

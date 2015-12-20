@@ -22,7 +22,7 @@ printf "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.bash_profil
 # Install others binaries
 binaries=(
       graphicsmagick
-      imagemagick
+      #imagemagick
       rename
       ffmpeg
       python
@@ -81,6 +81,7 @@ apps=(
       latexit
       #launchbar
       manuscripts
+      mendeley-desktop
       microsoft-office
       mou
       #nvalt

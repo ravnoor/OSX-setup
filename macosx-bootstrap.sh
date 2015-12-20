@@ -21,20 +21,20 @@ printf "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.bash_profil
 
 # Install others binaries
 binaries=(
-  graphicsmagick
-  rename
-  ffmpeg
-  python3
-  sshfs
-  git
-	detox
-	duplicity
-	nmap
-	openssl
-	p7zip
-	unrar
-	wget
-	zsh
+      graphicsmagick
+      rename
+      ffmpeg
+      python3
+      sshfs
+      git
+      detox
+      duplicity
+      nmap
+      openssl
+      p7zip
+      unrar
+      wget
+      zsh
 )
 
 printf "installing binaries..."
@@ -48,32 +48,32 @@ brew install caskroom/cask/brew-cask
 
 # Install Applications
 apps=(
-	adium
-	caffeine
-  chromium
-	citrix-receiver
-  crashplan
-	dropbox
-	evernote
-  firefox
-  flash
-	flux
-	iterm2
-	java
-	keepassx
-	libreoffice
-	mou
-  nvalt
-	paragon-ntfs
-  qlmarkdown
-  qlstephen
-  quicklook-json
-	skype
-	spotify
-	sublime-text
-	vlc
-	vagrant
-	virtualbox
+      adium
+      caffeine
+      chromium
+      citrix-receiver
+      crashplan
+      dropbox
+      evernote
+      firefox
+      flash
+      flux
+      iterm2
+      java
+      keepassx
+      libreoffice
+      mou
+      nvalt
+      paragon-ntfs
+      qlmarkdown
+      qlstephen
+      quicklook-json
+      skype
+      spotify
+      sublime-text
+      vlc
+      vagrant
+      virtualbox
 )
 
 printf "installing apps..."
@@ -93,7 +93,7 @@ if [ -d ~/git ]
 then
   cd ~/git
 else
-	mkdir ~/git && cd ~/git
+    mkdir ~/git && cd ~/git
 fi
 git clone https://gist.github.com/e22d9840f9ea2fee4716.git
 sh e22d9840f9ea2fee4716/osx-for-hackers.sh
@@ -106,4 +106,3 @@ sudo nvram SystemAudioVolume=" "
 
 # Install Oh-My-ZSH
 curl -L http://install.ohmyz.sh | sh
-

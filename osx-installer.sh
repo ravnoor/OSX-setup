@@ -66,6 +66,7 @@ apps=(
       #citrix-receiver
       #crashplan
       dropbox
+      dropzone
       #evernote
       ffmpegx
       firefox
@@ -104,7 +105,7 @@ apps=(
       tuxera-ntfs
       #utorrent
       vlc
-      virtualbox
+      #virtualbox
       #xquartz
 )
 

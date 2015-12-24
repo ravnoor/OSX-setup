@@ -90,6 +90,7 @@ apps=(
       #qlmarkdown
       pandoc
       papers
+      pritunl #openvpn client
       qlcolorcode
       qlmarkdown
       quicklook-json

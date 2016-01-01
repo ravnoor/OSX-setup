@@ -97,6 +97,7 @@ apps=(
       #seil [keyboard hacks]
       skype
       slack
+      soundcast
       subler
       sublime-text
       the-unarchiver

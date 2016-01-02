@@ -107,6 +107,7 @@ apps=(
       tuxera-ntfs
       #utorrent
       vlc
+      wkhtmltopdf
       #virtualbox
       #xquartz
 )

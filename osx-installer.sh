@@ -98,8 +98,9 @@ apps=(
       skype
       slack
       soundcast
-      subler
+      #subler
       sublime-text
+      sshfs
       the-unarchiver
       tex-live-utility
       texmaker
@@ -110,7 +111,7 @@ apps=(
       webkit2png
       wkhtmltopdf
       #virtualbox
-      #xquartz
+      xquartz
 )
 
 printf "installing apps..."

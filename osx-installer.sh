@@ -22,17 +22,17 @@ printf "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.bash_profil
 # Install others binaries
 binaries=(
       graphicsmagick
-      #imagemagick
+      # imagemagick
       rename
       ffmpeg
       python
-      #sshfs
+      # sshfs
       git
-      #curl
-      #detox
-      #duplicity
+      # curl
+      # detox
+      # duplicity
       nmap
-      #ghostscript
+      # ghostscript
       openssl
       p7zip
       unrar
@@ -56,45 +56,46 @@ apps=(
       appcleaner
       atom
       bartender
-      basictex
-      #beamer
+      basictex # mactex for full TeX installation
+      # beamer
       bettertouchtool
       caffeine
       colorpicker
       cyberduck
-      #chromium
-      #citrix-receiver
-      #crashplan
+      # chromium
+      # citrix-receiver
+      # crashplan
       dropbox
       dropzone
-      #evernote
+      # evernote
       ffmpegx
       firefox
       flash
       flux
       google-chrome
       handbrake
-      #imagealpha
-      #imageoptim
+      # imagealpha
+      # imageoptim
       iterm2
       java
       lastpass
       latexit
-      #launchbar
+      # launchbar
       manuscripts
       mendeley-desktop
       microsoft-office
       mou
-      #nvalt
-      #paragon-ntfs
-      #qlmarkdown
+      nimble # wolfram menu client
+      # nvalt
+      # paragon-ntfs
+      # qlmarkdown
       pandoc
       papers
-      pritunl #openvpn client
+      # pritunl # openvpn client
       qlcolorcode
       qlmarkdown
       quicklook-json
-      #seil [keyboard hacks]
+      # seil # keyboard hacks
       skype
       slack
       soundcast
@@ -107,10 +108,11 @@ apps=(
       transmission
       tuxera-ntfs
       #utorrent
+      viscosity # openvpn client
       vlc
       webkit2png
       wkhtmltopdf
-      #virtualbox
+      # virtualbox
       xquartz
 )
 

@@ -73,6 +73,7 @@ apps=(
       flash
       flux
       google-chrome
+      google-nik-collection
       handbrake
       # imagealpha
       # imageoptim

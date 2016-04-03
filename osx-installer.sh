@@ -21,6 +21,7 @@ printf "$PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.bash_profil
 
 # Install others binaries
 binaries=(
+      dnscrypt-proxy --with-plugins
       graphicsmagick
       # imagemagick
       rename

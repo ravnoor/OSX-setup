@@ -36,6 +36,7 @@ binaries=(
       # ghostscript
       openssl
       p7zip
+      qpdf # decrypt pdf files
       unrar
       wget
       zsh

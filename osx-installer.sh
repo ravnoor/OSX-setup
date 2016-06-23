@@ -26,10 +26,13 @@ binaries=(
       # imagemagick
       rename
       ffmpeg
+      mkvtoolnix
+      mp4v2
+      mplayer
       python
       # sshfs
       git
-      # curl
+      curl
       # detox
       # duplicity
       nmap
@@ -77,6 +80,7 @@ apps=(
       google-chrome
       google-nik-collection
       handbrake
+      brew cask install handbrakecli
       # imagealpha
       # imageoptim
       iterm2

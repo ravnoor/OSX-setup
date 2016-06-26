@@ -57,6 +57,7 @@ brew install caskroom/cask/brew-cask
 # Install Applications
 apps=(
       #adium
+      airflow
       alfred
       appcleaner
       atom

@@ -56,6 +56,7 @@ brew install caskroom/cask/brew-cask
 
 # Install Applications
 apps=(
+      1clipboard
       #adium
       airflow
       alfred

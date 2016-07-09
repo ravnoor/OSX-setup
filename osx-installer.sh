@@ -169,5 +169,8 @@ sudo chmod 755 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
 
+# Set plain text as the default format in TextEdit with a terminal command
+defaults write com.apple.TextEdit RichText -int 0
+
 # Install Oh-My-ZSH
 curl -L http://install.ohmyz.sh | sh
